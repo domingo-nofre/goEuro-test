@@ -17,7 +17,7 @@ public class App {
         if (args.length < 1) {
             System.out.println("Incorrect parameters number\n\n" +
                     "Usage:\n" +
-                    "java -jar artifact_name server_url city_name [locale] [filename]");
+                    "java -jar artifact_name city_name [locale] [filename]");
             System.exit(1);
         }
 
